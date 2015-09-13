@@ -2,10 +2,6 @@
 
 [![Latest Version](https://img.shields.io/github/release/indigophp/sonata-admin-print-bundle.svg?style=flat-square)](https://github.com/indigophp/sonata-admin-print-bundle/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build Status](https://img.shields.io/travis/indigophp/sonata-admin-print-bundle.svg?style=flat-square)](https://travis-ci.org/indigophp/sonata-admin-print-bundle)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/indigophp/sonata-admin-print-bundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/sonata-admin-print-bundle)
-[![Quality Score](https://img.shields.io/scrutinizer/g/indigophp/sonata-admin-print-bundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/sonata-admin-print-bundle)
-[![HHVM Status](https://img.shields.io/hhvm/indigophp/sonata-admin-print-bundle.svg?style=flat-square)](http://hhvm.h4cc.de/package/indigophp/sonata-admin-print-bundle)
 [![Total Downloads](https://img.shields.io/packagist/dt/indigophp/sonata-admin-print-bundle.svg?style=flat-square)](https://packagist.org/packages/indigophp/sonata-admin-print-bundle)
 
 **Allows to print entities.**
