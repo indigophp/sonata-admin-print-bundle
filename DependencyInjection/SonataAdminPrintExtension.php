@@ -1,6 +1,6 @@
 <?php
 
-namespace SonataAdminPrintBundle\DependencyInjection;
+namespace Indigo\SonataAdminPrintBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;

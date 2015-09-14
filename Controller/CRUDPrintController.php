@@ -1,6 +1,6 @@
 <?php
 
-namespace SonataAdminPrintBundle\Controller;
+namespace Indigo\SonataAdminPrintBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;

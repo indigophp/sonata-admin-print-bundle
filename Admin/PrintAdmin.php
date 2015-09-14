@@ -1,6 +1,6 @@
 <?php
 
-namespace SonataAdminPrintBundle\Admin;
+namespace Indigo\SonataAdminPrintBundle\Admin;
 
 use Sonata\AdminBundle\Route\RouteCollection;
 
