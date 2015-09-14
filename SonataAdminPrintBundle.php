@@ -1,6 +1,6 @@
 <?php
 
-namespace SonataAdminPrintBundle;
+namespace Indigo\SonataAdminPrintBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
