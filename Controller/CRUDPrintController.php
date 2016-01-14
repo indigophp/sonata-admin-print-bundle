@@ -16,20 +16,17 @@ trait CRUDPrintController
     /**
      * Print action
      *
-     * @param integer|string|null $id
-     *
      * @return Response
      *
      * @throws NotFoundHttpException If the object does not exist
      * @throws AccessDeniedException If access is not granted
      */
-    public function printAction($id = null)
+    public function printAction()
     {
-        $id = $this->get('request')->get($this->admin->getIdParameter());
-        $object = $this->admin->getObject($id);
+        $object = $this->admin->getSubject();
 
         if (!$object) {
-            throw new NotFoundHttpException(sprintf('Unable to find the object with id: %s', $id));
+            throw new NotFoundHttpException(sprintf('Unable to find the object with id: %s', $object->getId()));
         }
 
         if (false === $this->admin->isGranted('VIEW', $object)) {
