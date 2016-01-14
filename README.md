@@ -22,7 +22,20 @@ First of all you need to be familiar with the process of creating a custom actio
 
 1. Use `Indigo\SonataAdminPrintBundle\Admin\PrintAdmin` trait in your custom admin class.
 2. Use `Indigo\SonataAdminPrintBundle\Controller\CRUDPrintController` trait in your custom admin controller. Make sure you pass in the controller name as an argument in the service definition. (Check the above link to learn how to do that)
-3. In the  `configureListFields` method configure an action called `print`. You need to set the template manually to `SonataAdminPrintBundle::list__action_print.html.twig`
+3. In the  `configureListFields` method configure an action called `print`. You need to set the template manually to `SonataAdminPrintBundle::list__action_print.html.twig` like this:
+
+``` php
+    ->add('_action', 'actions', array(
+        'actions' => array(
+            'show' => array(),
+            'edit' => array(),
+            'delete' => array(),
+            'print' => array(
+                'template' => 'SonataAdminPrintBundle::list__action_print.html.twig',
+            ),
+        )
+    ))
+```
 
 
 ## Testing
