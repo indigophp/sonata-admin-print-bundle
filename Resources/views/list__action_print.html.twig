@@ -1,6 +1,6 @@
 {% if admin.isGranted('VIEW', object) and admin.hasRoute('print') %}
     <a href="{{ admin.generateObjectUrl('print', object) }}" class="btn btn-sm btn-default view_link" title="{{ 'action_print'|trans({}, 'SonataAdminPrintBundle') }}" target="_blank">
-        <i class="glyphicon glyphicon-print"></i>
+        <i class="fa fa-print"></i>
         {{ 'action_print'|trans({}, 'SonataAdminPrintBundle') }}
     </a>
 {% endif %}
