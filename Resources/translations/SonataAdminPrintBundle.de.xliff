@@ -1,20 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
-    <file date="2015-09-10T01:00:29Z" source-language="en" target-language="en" datatype="plaintext"
-          original="not.available">
-        <header>
-            <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
-            <note>The source node in most cases contains the sample message as written by the developer. If it looks
-                like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a
-                default message.
-            </note>
-        </header>
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="SonataAdminBundle.en.xliff" >
         <body>
-            <trans-unit id="f868aa1bbd4a6e2ed37d04e12c382a7b6bb05999" resname="action_print">
-                <jms:reference-file line="2">Resources/views/list__action_print.html.twig</jms:reference-file>
-                <jms:reference-file line="4">Resources/views/list__action_print.html.twig</jms:reference-file>
+            <trans-unit id="action_print">
                 <source>action_print</source>
-                <target state="new">Drucken</target>
+                <target>Drucken</target>
             </trans-unit>
         </body>
     </file>
