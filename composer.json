@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "sonata-project/admin-bundle": "^2.0"
+        "sonata-project/admin-bundle": "^2.0 || ^3.0"
     },
     "autoload": {
         "psr-4": {
